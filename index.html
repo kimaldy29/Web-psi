@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+    <style>
+        html{
+            background-color: beige;
+        }
+
+        h1{
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+        }
+        .kecerdasan{
+            background-color: rgb(79, 97, 59);
+            width: 200px;
+            height: 100px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .cerdas2{
+            background-color: rgb(179, 60, 60);
+            width: 200px;
+            height: 100px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .kepribadian{
+            background-color: rgb(79, 97, 59);
+            width: 200px;
+            height: 100px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .kepribadian2{
+            background-color: rgb(179, 60, 60);
+            width: 200px;
+            height: 100px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        p{
+            font-size: 1.4em;
+            margin: 0;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px){
+            h1{
+                font-size: 2rem;
+            }
+
+            .container{
+                flex-direction: column
+            }
+
+            .kepribadian{
+                width: 180px;
+                height: 90px;
+            }
+
+            .kepribadian2{
+                width: 180px;
+                height: 90px;
+            }
+
+            .kecerdasan{
+                width: 180px;
+                height: 90px;
+            }
+
+            .cerdas2{
+                width: 180px;
+                height: 90px;
+            }
+
+            p{
+                font-size: 1.2em;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang!</h1>
+
+    <div class="container">
+        <a href="./cerdas.html"><div class="kecerdasan"><p>Tes Kecerdasan</p></div></a>
+        <a href="./kepribadian.html"><div class="kepribadian"><p>Tes Kepribadian</p></div></a>
+        <a href="./cerdas2.html"><div class="cerdas2"><p>Tes Kecerdasan 2</p></div></a>
+        <a href="./kepribadian2.html"><div class="kepribadian2"><p>Tes Kepribadian 2</p></div></a>
+        <a href="./cerdas3.html"><div class="cerdas2"><p>Tes Kecerdasan 3</p></div></a>
+        
+
+    </div>
+
+</body>
+</html>
